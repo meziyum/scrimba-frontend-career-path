@@ -1,4 +1,4 @@
-# First Website
+# Google Clone
 
 Quick start:
 
@@ -8,7 +8,7 @@ $ npm start
 ````
 
 ## Screenshot
-![Screenshot](/Module%202/First%20Website/screenshot.jpg "Screenshot")
+![Screenshot](/Module%202/Google%20Clone/screenshot.jpg "Screenshot")
 
 Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
