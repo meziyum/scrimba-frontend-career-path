@@ -3,10 +3,17 @@
 *.md linguist-documentation=false
 *.md linguist-detectable=true
 
-*.html linguist-detectable=true
+*.css linguist-vendored=false
+*.css linguist-generated=false
+*.css linguist-documentation=false
 *.css linguist-detectable=true
+
+*.html linguist-vendored=false
+*.html linguist-generated=false
+*.html linguist-documentation=false
+*.html linguist-detectable=true
 
 *.json linguist-vendored=false
 *.json linguist-generated=false
 *.json linguist-documentation=false
-*.json linguist-detectable=false
+*.json linguist-detectable=true
