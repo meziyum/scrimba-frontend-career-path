@@ -5,6 +5,6 @@
 
 *.html linguist-detectable=true
 *.css linguist-detectable=true
-*.js linguist-detectable=false
+*.js linguist-detectable=true
 *.md linguist-detectable=true
 *.json linguist-detectable=false
