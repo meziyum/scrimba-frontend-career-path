@@ -1,3 +1,8 @@
+*.md linguist-vendored=false
+*.md linguist-generated=false
+*.md linguist-documentation=false
+*.md linguist-detectable=true
+
 *.html linguist-detectable=true
 *.css linguist-detectable=true
 *.js linguist-detectable=false
