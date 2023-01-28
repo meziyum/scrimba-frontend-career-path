@@ -1,3 +1,29 @@
 body {
     margin: 20px;
+    font-family: 'Times New Roman', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #023047;
+    background: #8ecae6;
+    border-bottom: 10px solid #ffb703;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #023047;
+    transition: 0.1s;
+}
+
+.card:hover{
+    background-color: #219ebc;
+    border-color: #fb8500;
+}
+
+.avatar{
+    width: 150px;
+    border-radius: 20px;
 }
