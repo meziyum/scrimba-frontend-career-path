@@ -16,7 +16,7 @@ $ yarn watch # npm run watch
 ```
 
 ## Screenshot
-![Screenshot](/Module%201/Your%20web%20app/screenshot.jpg "Screenshot")
+![Screenshot](/Module%201/2.%20Your%20web%20app/screenshot.jpg "Screenshot")
 
 ## About Scrimba
 
