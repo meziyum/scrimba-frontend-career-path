@@ -1,4 +1,4 @@
-# co55d41d78562334d40c4a10b
+# Space Exploration Site
 
 Quick start:
 
@@ -6,6 +6,9 @@ Quick start:
 $ npm install
 $ npm start
 ````
+
+## Screenshot
+![Screenshot]( /Module%202/6.%20Space%20Exploration%20Site/screenshot.jpg "Screenshot")
 
 Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
