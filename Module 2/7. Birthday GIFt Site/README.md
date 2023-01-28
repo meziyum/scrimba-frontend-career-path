@@ -7,6 +7,12 @@ $ npm install
 $ npm start
 ````
 
+## Screenshot
+![Screenshot]( /Module%202/7.%20Birthday%20GIFt%20Site/screenshot1.jpg"Screenshot")
+![Screenshot]( /Module%202/7.%20Birthday%20GIFt%20Site/screenshot2.jpg"Screenshot")
+![Screenshot]( /Module%202/7.%20Birthday%20GIFt%20Site/screenshot3.jpg"Screenshot")
+![Screenshot]( /Module%202/7.%20Birthday%20GIFt%20Site/screenshot4.jpg"Screenshot")
+
 Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
 
