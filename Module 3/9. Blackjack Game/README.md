@@ -1,4 +1,4 @@
-# co13941cbb8c0830394ef2859
+# Blackjack Game
 
 Quick start:
 
@@ -6,6 +6,9 @@ Quick start:
 $ npm install
 $ npm start
 ````
+
+## Screenshot
+![Screenshot]( /Module%203/9.%20Blackjack%20Game/screenshot.jpg "Screenshot")
 
 Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
