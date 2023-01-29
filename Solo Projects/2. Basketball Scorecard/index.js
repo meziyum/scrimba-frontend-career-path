@@ -10,4 +10,21 @@ function point_score( event ){
     let score = parseInt(event.target.innerText);
 
     document.getElementById(scored_by+'-counter').innerText=parseInt(document.getElementById(scored_by+'-counter').innerText)+score;
+
+    score_compare();
+}
+
+document.getElementById('new-game').addEventListener( 'click', () => {
+    document.getElementById('home-counter').innerText=0;
+    document.getElementById('guest-counter').innerText=0;
+})
+
+function score_compare(){
+
+    let lead = parseInt(document.getElementById('home-counter').innerText)>parseInt(document.getElementById('guest-counter').innerText) ? 'home' : 'guest';
+    
+    let trail = parseInt(document.getElementById('home-counter').innerText)>parseInt(document.getElementById('guest-counter').innerText) ? 'guest' : 'home';
+
+    document.getElementById(lead+'-heading').style.color = "green";
+    document.getElementById(trail+'-heading').style.color = "red";
 }

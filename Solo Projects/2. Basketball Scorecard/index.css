@@ -1,7 +1,14 @@
+
+@font-face {
+    font-family: CursedTimer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+
 body {
     margin: 0;
     background-color: #19044f;
     color: white;
+    font-family: CursedTimer;
 }
 
 .container {
@@ -21,9 +28,15 @@ body {
 button{
     border-radius: 8px;
     padding: 8px;
-    background-color: #19044f;
+    margin: 4px;
+    background:none;
     color: white;
     border: 1px solid white;
+}
+
+#new-game{
+    background-color: black;
+    color: #F94F6D;
 }
 
 #home-counter, #guest-counter{
@@ -33,5 +46,19 @@ button{
     width: 150px;
     background-color: black;
     border-radius: 8px;
-    font-size: 64px;
+    font-size: 80px;
+    color: #F94F6D;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+}
+
+.lead{
+    color: green;
+}
+
+.trail{
+    color: red;
 }
