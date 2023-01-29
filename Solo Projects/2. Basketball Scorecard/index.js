@@ -17,14 +17,25 @@ function point_score( event ){
 document.getElementById('new-game').addEventListener( 'click', () => {
     document.getElementById('home-counter').innerText=0;
     document.getElementById('guest-counter').innerText=0;
+    document.getElementById(lead+'-heading').style.color = "white";
+    document.getElementById(trail+'-heading').style.color = "white";
 })
 
 function score_compare(){
 
-    let lead = parseInt(document.getElementById('home-counter').innerText)>parseInt(document.getElementById('guest-counter').innerText) ? 'home' : 'guest';
-    
-    let trail = parseInt(document.getElementById('home-counter').innerText)>parseInt(document.getElementById('guest-counter').innerText) ? 'guest' : 'home';
+    let home_counter = parseInt(document.getElementById('home-counter').innerText);
+    let guest_counter = parseInt(document.getElementById('guest-counter').innerText);
 
-    document.getElementById(lead+'-heading').style.color = "green";
-    document.getElementById(trail+'-heading').style.color = "red";
+    if( guest_counter == home_counter){
+        document.getElementById('home-heading').style.color = "white";
+        document.getElementById('guest-heading').style.color = "white";
+    }
+    else if( home_counter > guest_counter){
+        document.getElementById('home-heading').style.color = "green";
+        document.getElementById('guest-heading').style.color = "red";
+    }
+    else{
+        document.getElementById('home-heading').style.color = "red";
+        document.getElementById('guest-heading').style.color = "green";
+    }
 }
