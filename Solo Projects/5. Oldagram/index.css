@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h5,h4{
+    margin: 4px;
+}
+
+.user-avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+header{
+    display: flex;
+    justify-content: start;
+    padding: 8px;
+}
+
+header .user-avatar{
+    display: block;
+    margin-left: auto;
+}
+
+#logo{
+    width: 100px;
+}
+
+.post-header{
+    display: flex;
+    padding: 8px;
+    border-top: 1px solid grey;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.post-footer{
+    padding: 8px;
+}
+
+.action{
+    width: 30px;
+    height: 30px;
+}
+
+.action:hover{
+    opacity: 0.5;
+}
+
+.comment-content{
+    font-weight: 400;
+}
