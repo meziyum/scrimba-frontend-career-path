@@ -1,0 +1,162 @@
+html, body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+/*typography*/
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1, h2{
+    color: #EED6D3;
+    margin: 0;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3{
+    margin: 25px;
+}
+
+/* layout */
+
+header{
+    background-color: #67595E;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 370px;
+    gap: 15px;
+    padding: 10px 0 0 0;
+}
+
+.pumpkin-img{
+    width: 80px;
+}
+
+.controls-container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0px auto;
+}
+
+/* controls */
+
+.emotion-radios{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #bcbcbc;
+    padding: 4px 8px;
+}
+
+.radio:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.radio:last-child{
+    border-bottom: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+label{
+    font-size: 14px;
+    padding: 3px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.highlight{
+    background-color: #fff0ee;
+    color: #bd301d;
+    font-weight: bold;
+    accent-color: #bd301d;
+}
+
+input[type="radio"]{
+    cursor: pointer;
+}
+
+.gifs-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+
+.gifs-check-label{
+    width: unset;
+    margin-right: 5px;
+}
+
+.get-image-btn{
+    background-color: #67595e;
+    color: #eed6d3;
+    padding: 15px 19px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+/* modal */
+
+.meme-modal{
+    display: none; /*flex when displayed*/
+    position: fixed;
+    margin: auto;
+    top: 80px;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #67595e;
+    border-radius: 5px;
+    width: 420px;
+    height: 490px;
+    background-color: #fff0ee;
+}
+
+.cat-img{
+    max-width: 340px;
+    max-height: 420px;
+    border-radius: 5px;
+}
+
+.meme-modal-close-btn{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color: transparent;
+    border: 2px solid #555;
+    color: #555;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+
+.meme-modal-close-btn:hover{
+    color: white;
+    background-color: #bd301d;
+    border: 2px solid #bd301d;
+}
