@@ -1,9 +1,38 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
        <link rel="stylesheet" href="index.css">
+
     </head>
     <body>
-	<script src="index.js"></script>
+        <div class="hero">
+            <h1>Meziyum's Restaurant</h1>
+            <h3>The best in the world</h3>
+        </div>
+        <div id="items">
+
+        </div>
+        <div id="your-order">
+            <h2>Your Order</h2>
+            <div id="order-list"></div>
+            <div class="total-div">
+                <h2>Total price: </h2>
+                <h2 id="total">$0</h2>
+            </div>
+            <button id="order">Complete Order</button>
+        </div>
+        <div id="user-info">
+            <h1>Enter card details</h1>
+            <form id="pay-form">
+                <input id="name" name="name" type="text" placeholder="Enter your name" required>
+                <input id="cno" name="cno" type="text" placeholder="Enter your card number" required>
+                <input id="cvv" name="cvv" type="text" placeholder="Enter CVV" required>
+                <button id="pay" type="submit">Pay</button>
+            </form>
+        </div>
+        <div id="success">
+
+        </div>
+	    <script src="index.js" type="module"></script>
     </body>
 </html>
 

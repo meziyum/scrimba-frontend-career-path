@@ -1,4 +1,4 @@
-# co72e499baf5f48346e5975cf
+# Restraunt Ordering App
 
 Quick start:
 
@@ -6,6 +6,11 @@ Quick start:
 $ npm install
 $ npm start
 ````
+
+## Screenshots
+![Screenshot]( /Solo%20Projects/6.%20Restaurant%20Ordering%20App/screenshot.jpg "Screenshot")
+![Screenshot]( /Solo%20Projects/6.%20Restaurant%20Ordering%20App/screenshot2.jpg "Screenshot")
+![Screenshot]( /Solo%20Projects/6.%20Restaurant%20Ordering%20App/screenshot3.jpg "Screenshot")
 
 Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
