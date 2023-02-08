@@ -25,19 +25,13 @@ h2 {
 }
 
 h1 {
-  /* I don't want red anymore, I want it to be blue! 
-  Help me change it! */
   color: var(--title-color);
   font-size: 3em;
   text-align: center;
 }
 
-/* How can I make my other section titles blue too? */
-
 .fireworks {
   text-align: center;
-  /* Can you help me make my fireworks bigger? */
-  /* How about smaller? */
   font-size: 4em;
 }
 
