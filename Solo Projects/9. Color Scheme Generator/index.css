@@ -1,4 +1,47 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    padding: 16px;
+    column-gap: 16px;
+    justify-content: center;
+}
+
+input{
+    border-radius: 4px;
+    height: 40px;
+}
+
+select{
+    background-color: #3D4B60;
+    border-radius: 4px;
+    color: white;
+}
+
+button{
+    background-color: #3D4B60;
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#color-list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0;
+}
+
+.color-div{
+    width: 20%;
+}
+
+.color-show{
+    height: 550px;
 }
