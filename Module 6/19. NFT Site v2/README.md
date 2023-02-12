@@ -9,11 +9,11 @@ $ npm start
 
 ## Screenshot
 
-## Desktop
+### Desktop
 ![Screenshot](/Module%206/19.%20NFT%20Site%20v2/screenshot.jpg "Screenshot")
 ![Screenshot](/Module%206/19.%20NFT%20Site%20v2/screenshot2.jpg "Screenshot")
 
-## Mobile
+### Mobile
 ![Screenshot](/Module%206/19.%20NFT%20Site%20v2/screenshot3.jpg "Screenshot")
 ![Screenshot](/Module%206/19.%20NFT%20Site%20v2/screenshot4.jpg "Screenshot")
 ![Screenshot](/Module%206/19.%20NFT%20Site%20v2/screenshot5.jpg "Screenshot")
