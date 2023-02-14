@@ -2,3 +2,95 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+body{
+    background: #121212 url("images/background.jpg");
+    background-size: 100% 20vh;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 1rem 3em;
+}
+
+h1, h4{
+    text-shadow: 1px 1px lightslategray;
+}
+
+p{
+    font-size: 14px;
+}
+
+.heading{
+    display: flex;
+    padding: 3rem 0;
+    justify-content: space-between;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+#search{
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#search-field{
+    width: 100%;
+    color: #a5a5a5;
+    background-color: #2e2e2f;
+    padding: 0.8125em 0.5625em;
+    border: none;
+}
+
+#search-field:focus{
+    outline: none;
+}
+
+#search-btn{
+    color: inherit;
+    background-color: #4b4b4b;
+    padding: 0.5625em 1.0625em;
+    border: none;
+}
+
+.movie{
+    display: flex;
+    padding: 2rem 0;
+    border-bottom: 1.5px solid #2c2c2c;
+}
+
+.poster{
+    max-width: 100px;
+    max-height: 150px;
+}
+
+.movie-main{
+    padding: 1rem;
+}
+
+.movie-main h4{
+    margin: 2px;
+}
+
+.movie-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.plot{
+    color: #a5a5a5;
+}
+
+#add-watchlist{
+    border-radius: 50%;
+    background-color: white;
+    color: #121212;
+    padding: 0.2em 0.4em;
+    border: none;
+}

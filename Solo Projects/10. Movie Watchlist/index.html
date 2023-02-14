@@ -1,9 +1,23 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width">
+        <meta charset="utf-8">
     </head>
     <body>
-        <h1>index.html</h1>
+        <div class="hero">
+            <div class="heading">
+                <h1>Find your film</h1>
+                <h4 onclick="window.location='watchlist.html';">My Watchlist</h4>
+            </div>
+            <form id="search">
+                <input type="search" id="search-field" name="search-content" placeholder="Search Movie">
+                <button id="search-btn">Search</button>
+            </form>
+        </div>
+        <div id="main">
+            <img src="images/explore.jpg"> 
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
