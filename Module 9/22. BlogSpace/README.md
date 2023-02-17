@@ -7,5 +7,5 @@ $ npm install
 $ npm start
 ````
 
-# Screenshots
+# Screenshot
 ![Screenshot](/Module%209/22.%20BlogSpace/screenshot.jpg "Screenshot")
