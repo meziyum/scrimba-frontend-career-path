@@ -26,11 +26,20 @@ p{
 }
 
 #main{
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 75vh;
+}
+
+#not-found{
+    margin: auto;
+    align-self: center;
+}
+
+#explore{
+    display: block;
+    margin: auto;
+    align-self: center;
 }
 
 #search{
@@ -71,6 +80,7 @@ p{
 
 .movie-main{
     padding: 1rem;
+    width: 100%;
 }
 
 .movie-main h4{
@@ -87,10 +97,37 @@ p{
     color: #a5a5a5;
 }
 
-#add-watchlist{
+.add-watchlist,
+.remove-watchlist{
     border-radius: 50%;
     background-color: white;
     color: #121212;
     padding: 0.2em 0.4em;
+    border: none;
+}
+
+#empty-watchlist{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    align-self: center;
+    color: #787878;
+}
+
+#add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#add button{
+    border-radius: 50%;
+    background-color: white;
+    color: #121212;
+    padding: 0.2em 0.4em;
+    margin: 0.4em;
     border: none;
 }

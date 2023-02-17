@@ -1,7 +1,11 @@
 
-const key='3068fa44';
+const key='3068fa44'; //API Key for OMDB
 
-document.getElementById('search-btn').addEventListener('click', (e) => fetchResults(e));
+const search_button = document.getElementById('search-btn');
+search_button.addEventListener('click', (e) => fetchResults(e));
+const list = document.getElementById('main');
+list.addEventListener('click', (e) => handleClicks(e));
+var watchList=localStorage.getItem("watchlist");
 
 function fetchResults(e){
 
@@ -12,14 +16,12 @@ function fetchResults(e){
         .then( data => {
 
             if(data.Search){
-                console.log('tes')
                 var innerHTML='';
                 data.Search.map( movie => {
                     const { Title, imdbID, Poster} = movie;
                     fetch( `http://www.omdbapi.com/?apikey=${key}&i=${imdbID}`)
                     .then( res => res.json())
                     .then( info => {
-                        console.log(info)
                         innerHTML+=`
                         <div class="movie">
                             <img class="poster" src="${Poster}">
@@ -28,9 +30,8 @@ function fetchResults(e){
                                 <p class="movie-info">
                                     ${info.Runtime}
                                      | 
-                                    ${info.Genre}
-                                     | 
-                                    <button id="add-watchlist">
+                                    ${info.Genre} 
+                                    <button class="add-watchlist" data-id="${imdbID}">
                                     +
                                     </button>
                                 </p>
@@ -38,16 +39,25 @@ function fetchResults(e){
                             </div>
                         </div>
                         `;
-                        document.getElementById('main').innerHTML=innerHTML;
+                        list.innerHTML=innerHTML;
                     })
                 })
             }
             else{
-                document.getElementById('main').innerHTML=`<h3>Unable to find what you are looking for. Please try another search.</h3>`;
+                list.innerHTML=`<h3 id="not-found">Unable to find what you are looking for. Please try another search.</h3>`;
             }
         })
 }
 
-function fetchMoreInfo(){
-
+function handleClicks(e){
+    if(e.target.classList.contains('add-watchlist')){
+        const movie = e.target.parentElement.parentElement.parentElement;
+        console.log(e.target.dataset.id)
+        if(watchList)
+        watchList+=e.target.dataset.id+",";
+        else
+        watchList=e.target.dataset.id+",";
+        localStorage.setItem("watchlist", watchList);
+        movie.style.display='none';
+    }
 }
