@@ -1,5 +1,5 @@
 
-const key='3068fa44'; //API Key for OMDB
+const key='API KEY HERE'; //API Key for OMDB
 const list = document.getElementById('main');
 
 var watchList=localStorage.getItem("watchlist");

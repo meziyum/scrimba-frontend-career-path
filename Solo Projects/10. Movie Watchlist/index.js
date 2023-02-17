@@ -1,5 +1,5 @@
 
-const key='3068fa44'; //API Key for OMDB
+const key='API KEY HERE'; //API Key for OMDB
 
 const search_button = document.getElementById('search-btn');
 search_button.addEventListener('click', (e) => fetchResults(e));
