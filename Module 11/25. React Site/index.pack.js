@@ -545,7 +545,7 @@ function Navbar() {
     return _react2.default.createElement(
         "nav",
         null,
-        _react2.default.createElement("img", { src: "../images/react-icon-small.png", className: "nav--icon" }),
+        _react2.default.createElement("img", { src: "./images/react-icon-small.png", className: "nav--icon" }),
         _react2.default.createElement(
             "h3",
             { className: "nav--logo_text" },

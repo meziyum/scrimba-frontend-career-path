@@ -7,5 +7,5 @@ $ npm install
 $ npm start
 ````
 
-# Screenshots
+# Screenshot
 ![Screenshot](/Module%209/24.%20Personal%20Dashboard/screenshot.png "Screenshot")
