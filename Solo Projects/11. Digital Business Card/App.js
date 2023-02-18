@@ -1,4 +1,6 @@
 import React from "react"
+import Social_Icons from "./components/Social_Icons"
+import Info from "./components/Info"
 
 export default function App() {
     return(
@@ -13,19 +15,9 @@ export default function App() {
                         <button id="email"><embed class="svg" src="./images/mail.svg" /> Email</button>
                         <button id="linkedin"><embed class="svg" src="./images/linkedin.svg" /> LinkedIn</button>
                     </div>
-                    <div id="info">
-                        <h3>About</h3>
-                        <p>I am a frontend devloper with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
-                        <h3>Interests</h3>
-                        <p>Food, History, Politis, Novels, Animes, Mangas, Webseries, Economics, Metal Ability, Logical Reasoning.</p>
-                    </div>
+                    <Info/>
                 </div>
-                <div id="social-icons">
-                        <img class="social-icon" src="./images/twitter.png"/>
-                        <img class="social-icon" src="./images/facebook.png"/>
-                        <img class="social-icon" src="./images/instagram.png"/>
-                        <img class="social-icon" src="./images/github.png"/>
-                    </div>
+                <Social_Icons/>
             </div>  
         </div>
     )
