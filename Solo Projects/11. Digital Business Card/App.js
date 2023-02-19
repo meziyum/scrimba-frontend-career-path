@@ -12,8 +12,8 @@ export default function App() {
                     <h4>Frontend Developer</h4>
                     <p>Meziyum website</p>
                     <div id="social">
-                        <button id="email"><embed class="svg" src="./images/mail.svg" /> Email</button>
-                        <button id="linkedin"><embed class="svg" src="./images/linkedin.svg" /> LinkedIn</button>
+                        <button id="email"><embed className="svg" src="./images/mail.svg" /> Email</button>
+                        <button id="linkedin"><embed className="svg" src="./images/linkedin.svg" /> LinkedIn</button>
                     </div>
                     <Info/>
                 </div>

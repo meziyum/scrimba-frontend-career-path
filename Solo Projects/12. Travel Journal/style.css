@@ -2,3 +2,67 @@
     box-sizing: border-box;
 }
 
+body{
+    color: #2B283A;
+}
+
+p{
+    font-size: 10.24;
+    margin: 8px;
+}
+
+#header{
+    background-color: #f55a5a;
+    display: flex;
+    justify-content: center;
+}
+
+#title{
+    color: white;
+    font-size: 14.56px;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+}
+
+.location{
+    display: flex;
+    border-bottom: #f5f5f5 solid 1px;
+    margin: 32px 0;
+}
+
+.location img{
+    width: 125px;
+    height: 170px;
+    border-radius: 16px;
+}
+
+.hero{
+    display: flex;
+}
+
+.location-name{
+    font-weight: 600;
+}
+
+.view{
+    color: #918e9b;
+    text-decoration: underline;
+    font-size: 10.24px;
+    margin: 8px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.date{
+    font-size: 10.24px;
+    font-weight: 700;
+}
