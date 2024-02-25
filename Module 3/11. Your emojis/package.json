@@ -2,7 +2,7 @@
   "name": "project",
   "dependencies": {},
   "devDependencies": {
-    "webpack": "^5.75",
+    "webpack": "^5.76",
     "babel-core": "^6.0",
     "babel-loader": "^7.0",
     "babel-preset-env": "*",
